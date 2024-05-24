@@ -1,0 +1,23 @@
+HUD Project Notes
+
+Basic interface would show a simple visual of the current moon phase, tide info, time, temp, etc
+
+Hardware:
+    Raspberri Pi
+    +LCD touchscreen display
+        https://www.amazon.com/dp/B01F3801A2?psc=1&ref=ppx_yo2ov_dt_b_product_details
+
+Software Stack
+    Python - Pull data, connect to backend database
+        FastAPI
+        SQLAlchemy
+    Database
+        SQLLite
+    React - Front end
+        Three.js + Aframe
+
+First Steps
+    1. Create the basic framework in react to display the current moon phase, time, tides
+    2. Setup a database to store information for HUD
+    3. Setup a way to track the project, assign tasks, gather requirements
+        https://github.com/users/spacedracula/projects/1/views/1
